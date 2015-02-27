@@ -1,0 +1,1 @@
+int addstr(char **deststr, char *addstr);
