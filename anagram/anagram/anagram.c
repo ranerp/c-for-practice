@@ -28,7 +28,28 @@ int main(void)
 *              D -> ACBD
 *           D ->
 *              B -> ACDB
-*   
+*       D ->
+*           C ->
+*              B -> ADCB
+*           B ->
+*              C -> ADBC
+*   B -> 
+*       A ->
+*           C ->
+*              D -> BACD
+*           D ->
+*              C -> BADC
+*       C -?
+*           A ->
+*              D -> BCAD
+*           D ->
+*              A -> BCDA
+*       D -?
+*           C ->
+*              A -> BDCA
+*           A ->
+*              C -> BDAC
+*
 */
 void gen_anagram(char *input, int start, int last)
 {
