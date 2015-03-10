@@ -19,10 +19,6 @@ const char FILL[] = " ";
 
 int main()
 {
-
-	int bar = 2.2f * 2.25f;
-	printf("%d\n", bar);
-
 	int integer;
 	char *answerPtr;
 
